@@ -1,0 +1,9 @@
+# Terraform state — contains sensitive AWS resource data, never commit
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+*.tfplan
+
+# OS
+.DS_Store
+Thumbs.db
